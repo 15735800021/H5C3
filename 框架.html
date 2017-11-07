@@ -5,19 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+    header{
+        width:100%;
+        height:50px;
+        background:rgb(221, 113, 113);
+    }
+    nav{
+        width:1000px;
+        margin:auto;
+        background:rgb(235, 235, 154);
+    }
+    section{
+        width:500px;
+        height:500px;
+        background:skyblue;
+        float:left;
+    }
+    div{
+        clear:both;
+    }
+    article{
+        float:right;
+        width:300px;
+        height:300px;
+        background:rgb(119, 219, 119);
+    }
+    footer{
+        width:100%;
+        height:100px;
+        background:aquamarine;
+    }
+    aside{
+        width:100px;
+        height:100px;
+        background:goldenrod;
+    }
+    </style>
 </head>
 <body>
-    <header></header>
+    <header>header</header>
     <!-- 头 -->
-    <nav></nav>
+    <nav>nav</nav>
     <!-- 导航栏 -->
-    <section></section>
+    <section>section1</section>
+    <section>section2</section>
+    <section>section3</section>
     <!-- 内容 -->
-    <article></article>
+    <article>article</article>
     <!-- 独立于文档的其他部分用户评论 -->
-    <footer></footer>
+    <div></div>
+    <!-- 隔墙法清除浮动 -->
+    <footer>footer</footer>
     <!-- 尾部 -->
-    <aside></aside>
+    <aside>aside</aside>
     <!-- 广告栏、侧边栏 -->
 </body>
 </html>
